@@ -1,0 +1,11 @@
+#environment
+venv/
+
+#data, experiments and models
+data/
+notebook/
+
+# models/*pth # remove comment at line start if weights <25MB
+
+# MacOS stuff
+.DS_Store
