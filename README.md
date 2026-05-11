@@ -4,11 +4,14 @@ Convolutional neural network trained on MNIST.
 A (locally hosted) web interface will provide the file handling.
 Application interface is implemented using streamlit.
 
-
 Model and model weights made available for inference in `models/`.
 
 The user just needs to provide an image of a single handwritten number for upload.
 
+## clone repo
+```bash
+git clone https://github.com/fmartid28/MNIST-digits-predictor-with-image-uploader
+```
 ## Requirements
 Create a virtual environment using python 3.12.
 ```python3
@@ -16,7 +19,6 @@ python3.12 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
 ## Folder structure
 app/
 
@@ -47,3 +49,5 @@ If you want to just run the streamlit app, or you've generate the weights alread
 ```python3
 streamlit run app/app.py
 ````
+Once on the streamlit page, upload or drag and drop a .png black background, white-font number image to the upper left part of web app.
+After the upload, a prediction of the number is printed on the center of the web app.
