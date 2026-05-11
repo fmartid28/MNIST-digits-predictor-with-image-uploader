@@ -12,23 +12,23 @@ The user just needs to provide an image of a single handwritten number for uploa
 ## Folder structure
 app/
 
-    app.py (streamlit app)
+* app.py (streamlit app)
 
 notebook/
 
-    test.ipynb (contains experimentation code prior to splitting off into individual files (model, train, predict))
+* test.ipynb (contains experimentation code prior to splitting off into individual files (model, train, predict))
 
 src/
 
-    model.py (defines CNN architecture)
+* model.py (defines CNN architecture)
 
-    train.py (defines training and weight archiving to "models/".)
+* train.py (defines training and weight archiving to "models/".)
 
-    predict.py (Code to carry our the inference of a digit.)
+* predict.py (Code to carry our the inference of a digit.)
 
 models/
 
-    *.pth (neural network weights. Pulled by predict and app.)
+* *.pth (neural network weights. Pulled by predict and app.)
 ## Running the program
 If youd like to create your own weights file:
 ```python3
