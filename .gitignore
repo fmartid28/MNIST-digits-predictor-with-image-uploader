@@ -1,7 +1,7 @@
 #environment
 venv/
 
-#data, experiments and models
+#data and experiments
 data/
 notebook/
 
