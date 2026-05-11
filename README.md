@@ -30,7 +30,7 @@ models/
 
 * *.pth (neural network weights. Pulled by predict and app.)
 ## Running the program
-If youd like to create your own weights file:
+If youd like to generate your own weights file:
 ```python3
 python src/train.py
 ```
