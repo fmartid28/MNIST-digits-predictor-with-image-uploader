@@ -22,9 +22,9 @@ app/
 
 * app.py (streamlit app)
 
-notebook/
+~~notebook/~~ Not included in repo.
 
-* test.ipynb (contains experimentation code prior to splitting off into individual files (model, train, predict))
+~~* test.ipynb (contains experimentation code prior to splitting off into individual files (model, train, predict))~~
 
 src/
 
