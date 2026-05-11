@@ -13,7 +13,7 @@ The user just needs to provide an image of a single handwritten number for uploa
 git clone https://github.com/fmartid28/MNIST-digits-predictor-with-image-uploader
 ```
 ## Requirements
-Create a virtual environment using python 3.12.
+In the root of the cloned folder, create a virtual environment using python 3.12 and install the requirements.
 ```python3
 python3.12 -m venv venv
 source venv/bin/activate
